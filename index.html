@@ -47,7 +47,7 @@
     </header>
     <main>
       <section class="container my-4">
-        <form>
+        <form id="formulario">
           <div class="mb-3">
             <label for="nombre" class="form-label">Nombre</label>
             <input
@@ -134,20 +134,10 @@
               required
             />
           </div>
-          <button type="button" class="btn btn-warning" onclick="mostrarData()">
-            Mostrar Datos
-          </button>
-          <button
-            type="button"
-            class="btn btn-success"
-            onclick="mostrarGeneracion()"
-          >
-            Mostrar Generacion
-          </button>
-          <button type="button" class="btn btn-danger" onclick="mostrarEdad()">
-            Mostrar si es mayor de Edad
-          </button>
+          <button class="btn btn-primary mb-3" type="submit">Enviar</button>
         </form>
+        <section id="sectionBotones" class="bg-dark border border-primary rounded-3">
+        </section>
       </section>
     </main>
     <footer class="bg-dark text-light text-center py-4">
