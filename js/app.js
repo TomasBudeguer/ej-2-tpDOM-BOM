@@ -90,6 +90,8 @@ class Persona {
 let formulario = document.querySelector("#formulario");
 formulario.addEventListener("submit", enviar);
 
+/*Me intereso la forma que habia realizado este ejercicio Emi  y decidi intentarlo hacer, esta seria la version barata ajsasjasaj, de todas formas en los commit pasados se pueden fijar de la otra forma que lo habia realizado, saludos!! */
+
 function enviar(e) {
   e.preventDefault();
   let idNombre = document.querySelector("#nombre").value;
